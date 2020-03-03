@@ -8,17 +8,18 @@
     },
     "component-class-suffix": true,
     "contextual-lifecycle": true,
+    "curly": [true, "ignore-same-line"],
     "directive-class-suffix": true,
     "directive-selector": [
       true,
       "attribute",
-      "app",
+      "bsc",
       "camelCase"
     ],
     "component-selector": [
       true,
       "element",
-      "app",
+      "bsc",
       "kebab-case"
     ],
     "import-blacklist": [

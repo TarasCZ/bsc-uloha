@@ -1,0 +1,13 @@
+{
+  "bcn.title": "Notebook",
+  "bcn.close": "Close",
+  "bcn.cancel": "Cancel",
+  "bcn.save": "Save",
+  "bcn.no": "No",
+  "bcn.note.title": "Note title",
+  "bcn.note.edit": "Edit note",
+  "bcn.note.create": "Create note",
+  "bcn.note.accept.remove": "Do you really wish to delete:",
+  "bcn.note.remove": "Delete",
+  "bcn.note.detail": "Note detail"
+}

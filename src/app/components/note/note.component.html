@@ -1,0 +1,9 @@
+<mat-card (click)="showInfo.emit()">
+  <h2>{{ note.title }}</h2>
+  <button mat-icon-button (click)="deleteNote.emit()" color="warn" bscClickStopPropagation>
+    <i class="fas fa-trash"></i>
+  </button>
+  <button mat-icon-button (click)="updateNote.emit(note)" bscClickStopPropagation>
+    <i class="fas fa-edit"></i>
+  </button>
+</mat-card>

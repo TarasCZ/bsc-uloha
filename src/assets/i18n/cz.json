@@ -1,0 +1,13 @@
+{
+  "bcn.title": "Poznámkovač",
+  "bcn.close": "Zavřít",
+  "bcn.cancel": "Zrušit",
+  "bcn.save": "Uložit",
+  "bcn.no": "Ne",
+  "bcn.note.title": "Poznámka",
+  "bcn.note.edit": "Upravit poznámku",
+  "bcn.note.create": "Vytvořit poznámku",
+  "bcn.note.accept.remove": "Opravdu chcete odstranit:",
+  "bcn.note.remove": "Odstranit",
+  "bcn.note.detail": "Detail poznámky"
+}

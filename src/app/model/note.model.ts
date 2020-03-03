@@ -3,3 +3,9 @@ export interface Note {
   title: string;
 }
 
+export function createNewNote(title: string = ''): Note {
+  return {
+    id: undefined,
+    title
+  };
+}

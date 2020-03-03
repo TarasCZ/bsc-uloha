@@ -1,0 +1,25 @@
+mat-card {
+  margin: 20px;
+  white-space: nowrap;
+  overflow-x: auto;
+  cursor: pointer;
+  border-radius: 15px;
+}
+
+h2 {
+  width: auto;
+  display: inline-block;
+  margin: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+button {
+  display: inline-block;
+  float: right;
+}
+
+mat-form-field {
+  width: 100%;
+}

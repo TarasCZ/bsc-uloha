@@ -1,0 +1,11 @@
+<bsc-note
+  *ngFor="let note of (notes$ | async);trackBy: trackByFn"
+  [note]="note"
+  (deleteNote)="openDeleteDialog(note)"
+  (updateNote)="openEditDialog($event)"
+  (showInfo)="openInfoDialog(note)"
+></bsc-note>
+<mat-card class="create-note" (click)="openNewNoteDialog()">
+  <i class="fas fa-plus"></i>
+</mat-card>
+

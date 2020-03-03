@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testExecutions version="1">
+  <file path="/home/jita/Development/bsc-uloha/src/app/components/note-list/note-list.component.spec.ts">
+  </file>
+  <file path="/home/jita/Development/bsc-uloha/src/app/components/note/note.component.spec.ts">
+  </file>
+  <file path="/home/jita/Development/bsc-uloha/src/app/directives/click-stop-propagation.directive.spec.ts">
+  </file>
+  <file path="/home/jita/Development/bsc-uloha/src/app/services/notes.service.spec.ts">
+  </file>
+  <file path="/home/jita/Development/bsc-uloha/src/app/app.component.spec.ts">
+  </file>
+</testExecutions>

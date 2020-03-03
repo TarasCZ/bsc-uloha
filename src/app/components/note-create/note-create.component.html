@@ -1,0 +1,14 @@
+<mat-card>
+  <mat-card-title>{{ 'bcn.note.create' | translate }}</mat-card-title>
+  <mat-divider></mat-divider>
+  <mat-form-field style="width: 100%">
+    <mat-label>{{ 'bcn.note.title' | translate }}</mat-label>
+    <input matInput [(ngModel)]="title">
+  </mat-form-field>
+  <mat-card-actions>
+    <button mat-button routerLink="/" color="warn">{{ 'bcn.cancel' | translate }}</button>
+    <button mat-button routerLink="/" color="accent" (click)="onSave()" cdkFocusInitial>
+      {{ 'bcn.save' | translate }}
+    </button>
+  </mat-card-actions>
+</mat-card>
